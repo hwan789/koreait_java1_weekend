@@ -1,0 +1,19 @@
+package com.kita.first.level1;
+
+public class Operator3 {
+     public static void main(String[] args) {
+    	 int n1 = 2;
+    	 int n2 = 3;
+    	 System.out.println(n1 + n2);
+    	 System.out.println(n1 - n2);
+    	 System.out.println(n1 * n2);
+    	 System.out.println(n1 / n2); //연산의 몫을 나타냄
+    	 //int result1 = n1 / n2; //정수 나누기이기때문에 0으로 표현됨
+    	 double result1 = (double)n1 / n2;
+    	 System.out.println(result1);
+    	 
+    	 System.out.println(n1 % n2); //나누기 후의 나머지값 표현
+    	 
+    	 
+     }
+}
